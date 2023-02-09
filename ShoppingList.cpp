@@ -51,7 +51,7 @@ void ShoppingList :: DeleteItem()
     if(itemVal <= itemCount && itemVal >0){
 
         if(qty[itemVal-1] == 0)
-            cout<<"You have not purchased the respecrive item yet!\n";
+            cout<<"You have not purchased the respective item yet!\n";
 
         else{
         totalCost-= priceEachItem[itemVal-1];
